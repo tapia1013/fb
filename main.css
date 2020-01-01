@@ -1,0 +1,61 @@
+@import "reset.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+header {
+  background: #385998;
+  padding: 15px;
+}
+
+header .logo-area {
+  color: white;
+  display: inline-block;
+  width: 20%;
+}
+
+header .logo-area a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+header .menu {
+  display: inline-block;
+  width: 20%;
+}
+
+header .menu ul li {
+  display: inline-block;
+}
+
+header .icon-links {
+  display: inline-block;
+  width: 20%;
+}
+
+
+header .icon-links ul li {
+  display: inline-block;
+}
+
+header .icon-links .quick-options {
+  display: inline-block;
+}
+
+header .icon-links .privacy {
+  display: inline-block;
+}
+
+header .search-area {
+  display: inline-block;
+  width: 39%;
+}
+
+header .search-area ul li {
+  display: inline-block;
+}
